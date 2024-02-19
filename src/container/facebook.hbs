@@ -1,0 +1,137 @@
+<div>
+    <section>
+        <h1>{{name}}</h1>
+    </section>
+    <section>
+        {{#each users}}
+        <section>
+            id: {{id}}
+            <br>
+            {{name}}
+            <br>
+            Gender: {{gender}}
+            <br>
+            Age: {{age}}
+            <hr>
+            <section>
+                <ul>
+                    <h4>Friends:</h4>
+
+                    <hr>
+                    {{#each friends}}
+                    id: {{id}}
+                    <br>
+                    {{name}}
+                    <br>
+                    Gender: {{gender}}
+                    <br>
+                    Age: {{age}}
+                    <br>
+                    <hr>
+                    <ul>
+                        {{#each mutual_friends}}
+
+                        Mutual friends
+                        <br>
+                        id: {{id}}
+                        <br>
+                        {{name}}
+                        <br>
+                        Gender: {{gender}}
+                        <br>
+                        Age: {{age}}
+                        <hr>
+                        <ul>
+                            {{#each mutual_friends}}
+
+                            Mutual friends
+                            <br>
+                            id: {{id}}
+                            <br>
+                            {{name}}
+                            <br>
+                            Gender: {{gender}}
+                            <br>
+                            Age: {{age}}
+                            <hr>
+                            {{/each}}
+                        </ul>
+                        {{/each}}
+
+                    </ul>
+
+                    <ul>
+                        {{#each groups}}
+
+                        <section>
+                            <h5>Group</h5>
+                            id: {{id}}
+                            <br>
+                            {{name}}
+                            <br>
+                            {{description}}
+                            <br>
+                            <br>
+
+                            <hr>
+                            <ul>
+                                <h5>Members</h5>
+                                <hr>
+                                {{#each members}}
+                                id: {{id}}
+                                <br>
+                                {{name}}
+                                <br>
+                                Gender: {{gender}}
+                                <br>
+                                Age: {{age}}
+                                <br>
+                                <hr>
+                                {{/each}}
+                            </ul>
+                        </section>
+                        {{/each}}
+                    </ul>
+
+                    {{/each}}
+
+                </ul>
+            </section>
+            <section>
+
+                <ul>
+                    {{#each groups}}
+
+                    <section>
+                        <h5>Group</h5>
+
+                        id: {{id}}
+                        <br>
+                        {{name}}
+                        <br>
+                        {{description}}
+                        <br>
+                        <br>
+                        <h4>Members</h4>
+                        <hr>
+                        <ul>
+                            {{#each members}}
+                            id: {{id}}
+                            <br>
+                            {{name}}
+                            <br>
+                            Gender: {{gender}}
+                            <br>
+                            Age: {{age}}
+                            <br>
+                            <hr>
+                            {{/each}}
+                        </ul>
+                    </section>
+                    {{/each}}
+                </ul>
+            </section>
+        </section>
+        {{/each}}
+    </section>
+</div>
