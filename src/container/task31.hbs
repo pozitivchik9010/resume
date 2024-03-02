@@ -193,37 +193,7 @@
 
     <hr>
 
-    <section class="col-12">
-        <div class="row gx-3">
-
-            {{#with footer}}
-            <h5>{{title}}</h5>
-            <div class="row gx-3">
-
-                <div class="col">
-                    {{#each navigation}}
-                    <div class="">
-                        <a href="{{href}}" class="btn btn-link">{{text}}</a>
-                    </div>
-                </div>
-                {{/each}}
-
-                <div class="col">
-                    {{#each socialMedia}}
-                    <div class="">
-                        <div class="btn btn-link">{{name}}</div>
-                    </div>
-
-                </div>
-                {{/each}}
-
-            </div> {{/with}}
-        </div>
-    </section>
-
-    <hr>
-
-    <section class="col-12">
+    <footer class="col-12">
         <div class="row gx-3">
             <div class="">
                 <div class="row">
@@ -257,37 +227,6 @@
                 </div>{{/with}}
             </div>
         </div>
-    </section>
-    {{!-- <section>
-        {{#with winner}}
-        <h2>{{title}}</h2>
-
-        <table class="table table-bordered">
-            <thead>
-
-                <tr> {{#with table}}
-                    <th>
-                        {{head}}
-                    </th>
-                </tr>
-            </thead>
-            {{/with}}
-            {{#with user}}
-            <tbody>
-                <tr>
-                    <th>{{place}}</th>
-                    <td>{{name}}</td>
-                    <td>{{surname}}</td>
-                    <td>{{nickname}}</td>
-                </tr>
-
-                </tr>
-            </tbody>
-            {{/with}}
-        </table>
-
-        {{/with}}
-    </section> --}}
-
+    </footer>
 
 </main>
