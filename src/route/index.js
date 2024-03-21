@@ -40,7 +40,35 @@ router.get('/', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index', {})
+  res.render('index', {
+    layout: 'index',
+    buttons: [
+      {
+        text: 'Shopcart',
+        link: '/shopcart',
+      },
+      {
+        text: 'Shophome',
+        link: '/shophome',
+      },
+      {
+        text: 'Shopprofile',
+        link: '/shopprofile',
+      },
+      {
+        text: 'Shopreview',
+        link: '/shopreview',
+      },
+      {
+        text: 'Shopcatalog',
+        link: '/shopcatalog',
+      },
+      {
+        text: 'Shoporder',
+        link: '/shoporder',
+      },
+    ],
+  })
   //                  ↑↑ сюди вводимо JSON дані
 })
 
@@ -2252,7 +2280,7 @@ router.get('/shopcart', function (req, res) {
       buttons: [
         {
           text: 'Оформити замовлення',
-          link: 'https://www.youtube.com/',
+          link: '/shoporder',
           isSuccess: true,
         },
         {
@@ -3018,7 +3046,7 @@ router.get('/shopcatalog', function (req, res) {
       ],
     },
     breadcrumb: [
-      { name: 'Головна', url: 'https://github.com/' },
+      { name: 'Головна', url: '/shophome' },
       {
         name: "Комп'ютери та ноутбуки",
         url: 'https://www.google.com/',
