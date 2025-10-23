@@ -1280,8 +1280,7 @@ router.get('/task31', function (req, res) {
     navigation: {
       navigation: [
         {
-          text: 'Home',
-          href: 'https://github.com/',
+            text: 'Home',           href: './',
         },
         {
           text: 'Contacts',
@@ -1480,8 +1479,7 @@ router.get('/task31', function (req, res) {
       title: 'Navigation',
       navigation: [
         {
-          text: 'Home',
-          href: 'https://github.com/',
+            text: 'Home',           href: './',
         },
         {
           text: 'Contacts',
@@ -1539,8 +1537,7 @@ router.get('/shophome', function (req, res) {
     navigation: {
       links: [
         {
-          text: 'Home',
-          href: 'https://github.com/',
+            text: 'Home',           href: './',
         },
         {
           text: 'Contacts',
@@ -1724,7 +1721,7 @@ router.get('/shophome', function (req, res) {
       [
         {
           text: 'Home',
-          link: 'https://www.youtube.com/',
+          link: './',
         },
         {
           text: 'Trending',
@@ -1829,7 +1826,7 @@ router.get('/shoporder', function (req, res) {
       links: [
         {
           text: 'Home',
-          href: 'https://github.com/',
+          href: './',
         },
         {
           text: 'Contacts',
@@ -2091,7 +2088,7 @@ router.get('/shoporder', function (req, res) {
       [
         {
           text: 'Home',
-          link: 'https://www.youtube.com/',
+          link: './',
         },
         {
           text: 'Trending',
@@ -2198,7 +2195,7 @@ router.get('/shopcart', function (req, res) {
       links: [
         {
           text: 'Home',
-          href: 'https://github.com/',
+          href: './',
         },
         {
           text: 'Contacts',
@@ -2341,7 +2338,7 @@ router.get('/shopcart', function (req, res) {
       [
         {
           text: 'Home',
-          link: 'https://www.youtube.com/',
+          link: './',
         },
         {
           text: 'Trending',
@@ -2447,8 +2444,7 @@ router.get('/shopprofile', function (req, res) {
     navigation: {
       links: [
         {
-          text: 'Home',
-          href: 'https://github.com/',
+            text: 'Home',           href: './',
         },
         {
           text: 'Contacts',
@@ -2636,8 +2632,7 @@ router.get('/shopprofile', function (req, res) {
     footer: [
       [
         {
-          text: 'Home',
-          link: 'https://www.youtube.com/',
+        text: 'Home',           link: './',
         },
         {
           text: 'Trending',
@@ -2742,8 +2737,7 @@ router.get('/shopreview', function (req, res) {
     navigation: {
       links: [
         {
-          text: 'Home',
-          href: 'https://github.com/',
+            text: 'Home',           href: './',
         },
         {
           text: 'Contacts',
@@ -2925,8 +2919,7 @@ router.get('/shopreview', function (req, res) {
     footer: [
       [
         {
-          text: 'Home',
-          link: 'https://www.youtube.com/',
+        text: 'Home',           link: './',
         },
         {
           text: 'Trending',
@@ -3032,8 +3025,7 @@ router.get('/shopcatalog', function (req, res) {
     navigation: {
       links: [
         {
-          text: 'Home',
-          href: 'https://github.com/',
+            text: 'Home',           href: './',
         },
         {
           text: 'Contacts',
@@ -3302,8 +3294,7 @@ router.get('/shopcatalog', function (req, res) {
     footer: [
       [
         {
-          text: 'Home',
-          link: 'https://www.youtube.com/',
+        text: 'Home',           link: './',
         },
         {
           text: 'Trending',
